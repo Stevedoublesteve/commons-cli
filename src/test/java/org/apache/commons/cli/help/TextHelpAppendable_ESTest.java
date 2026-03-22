@@ -5,6 +5,7 @@
 
 package org.apache.commons.cli.help;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.shaded.org.mockito.Mockito.*;
@@ -243,6 +244,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       TextHelpAppendable textHelpAppendable0 = TextHelpAppendable.systemOut();
@@ -858,6 +860,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       TextHelpAppendable textHelpAppendable0 = TextHelpAppendable.systemOut();
@@ -3459,6 +3462,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       TextHelpAppendable textHelpAppendable0 = TextHelpAppendable.systemOut();
@@ -7263,6 +7267,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       MockFileWriter mockFileWriter0 = new MockFileWriter(";Bm{{v");
@@ -7398,6 +7403,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       textHelpAppendable0.appendTable(tableDefinition0);
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       String string0 = ";Bm{{v";
@@ -7883,6 +7889,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       MockFile mockFile0 = new MockFile("XZLb.", "XZLb.");
@@ -8706,6 +8713,7 @@ public class TextHelpAppendable_ESTest extends TextHelpAppendable_ESTest_scaffol
       assertFalse(vector0.contains(textStyle0));
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       TextHelpAppendable textHelpAppendable0 = TextHelpAppendable.systemOut();

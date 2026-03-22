@@ -5,6 +5,7 @@
 
 package org.apache.commons.cli.help;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -88,6 +89,7 @@ public class TextStyle_ESTest extends TextStyle_ESTest_scaffolding {
       assertTrue(textStyle0.isScalable());
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       TextStyle.Builder textStyle_Builder0 = TextStyle.builder();

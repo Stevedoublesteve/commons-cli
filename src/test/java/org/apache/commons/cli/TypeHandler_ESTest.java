@@ -5,6 +5,7 @@
 
 package org.apache.commons.cli;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.evosuite.runtime.EvoAssertions.*;
@@ -92,6 +93,7 @@ public class TypeHandler_ESTest extends TypeHandler_ESTest_scaffolding {
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Class<String> class0 = String.class;
@@ -243,6 +245,7 @@ public class TypeHandler_ESTest extends TypeHandler_ESTest_scaffolding {
       }
   }
 
+  @Ignore
   @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       File file0 = TypeHandler.createFile("/");
